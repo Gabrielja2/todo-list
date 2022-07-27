@@ -1,0 +1,18 @@
+.lista-tarefa {
+  width: 602px;
+  height: 400px;
+  /* border: 1px red solid; */
+}
+
+.lista-tarefa>label {
+  display: flex;
+  list-style: none;
+  border: 2px rgba(6, 226, 255, 0.568) solid;
+  justify-content: space-between;
+ 
+}
+.lista-tarefa>label>div>button { 
+  font-size:1.6rem;
+  border: none;
+  background: white;
+}
